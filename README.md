@@ -1,2 +1,1 @@
-# OdooTestTask
-test task to Odoo course
+Python3.6
