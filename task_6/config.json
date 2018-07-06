@@ -1,0 +1,13 @@
+{
+    "monitoring_path": "./incoming",
+    "actions": {
+        "txt": "del",
+        "jpg": "del",
+        "pdf": "copy",
+        "png": "copy",
+        "xls": "move"
+    },
+    "copy_path": "./copied",
+    "move_path": "./moved"
+
+}
