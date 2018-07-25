@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_doc_button" model="ir.ui.view">
+        <field name="name">sale.order.form.doc.button</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <button name="action_view_invoice" position="before">
+                <button
+                    name="sale_order_doc"
+                    type="object"
+                    class="oe_stat_button"
+                    icon="fa-file-o">
+                    <field string="Documents" name="sale_order_documents_count" widget="statinfo"/>
+                </button>
+            </button>
+        </field>
+    </record>
+</odoo>
